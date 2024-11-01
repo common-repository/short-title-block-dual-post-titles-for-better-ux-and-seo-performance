@@ -1,0 +1,26 @@
+{
+	"main": "build/index.js",
+	"scripts": {
+		"build": "wp-scripts build",
+		"format": "wp-scripts format",
+		"lint:css": "wp-scripts lint-style",
+		"lint:js": "wp-scripts lint-js",
+		"packages-update": "wp-scripts packages-update",
+		"plugin-zip": "wp-scripts plugin-zip",
+		"start": "wp-scripts start"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^22.2.1"
+	},
+	"dependencies": {
+		"@wordpress/block-editor": "^13.3.0",
+		"@wordpress/blocks": "^13.3.0",
+		"@wordpress/components": "^19.6.1",
+		"@wordpress/core-data": "^7.3.0",
+		"@wordpress/data": "^10.3.0",
+		"@wordpress/i18n": "^5.3.0",
+		"clsx": "^2.1.1",
+		"lodash": "^4.17.21",
+		"lodash.assign": "^4.2.0"
+	}
+}
